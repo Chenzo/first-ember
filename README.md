@@ -15,6 +15,9 @@ Notes for myself:
 
 * add favorite sass includes to make purdy.
 * load external data? (like from a server or even this github repo!?)
+* Getting a liveReload error in the docker container. that shouldn't happen for production? Shouldn't even have that running, yeah?
+* what abou the models?
+
 
 
 
@@ -33,3 +36,5 @@ Notes for myself:
 
 ### Run build in docker:
 * `docker-compose -f docker_config/docker/docker-compose.yml up --build`
+* navigate to [http://localhost:8088](http://localhost:8088) to see build results
+

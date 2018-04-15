@@ -1,0 +1,34 @@
+
+@import 
+	"modules/functions",
+	"modules/variables",
+	"modules/mixins",
+	"modules/breakpoints",
+	"modules/grid-framework";
+
+@import 
+	"partials/reset",
+	"partials/grid",
+	"partials/starburst";
+
+@import
+	"base/typography",
+	"base/base";
+
+@import 
+	"layout/header",
+	"layout/footer";
+
+@import 
+	"pages/home",
+	"pages/sticky",
+	"pages/games";
+
+@import 
+	"base/shame";
+
+
+
+	
+/* no styles go in here *./
+/* use one of the files above */
