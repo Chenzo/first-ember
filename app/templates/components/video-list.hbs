@@ -2,8 +2,8 @@
 
 
 <ul>
-  {{#each videos as |vid|}}
+  {{#each videos.videos as |vid|}}
     {{!-- <li>{{vid}}</li> --}}
-    <li {{action "showVid" vid}}>{{vid}}</li>
+    <li {{action "showVid" vid}}>{{vid.video_name}}</li>
   {{/each}}
 </ul>
