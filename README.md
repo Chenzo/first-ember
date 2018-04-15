@@ -8,12 +8,15 @@ Notes for myself:
 * Got sass working with `ember install ember-cli-sass` (required a server restart)
 * Added a static JSON file for the videos. 
 * Got test docker container to work (Note: need to make all 'routes' point to index.html in the `default.conf` file)
+* fully Sass'd
 
+
+##Can this be a single page app (I mean, it _is_ but can it be one with routes and NO browser reloading!?)
 
 
 ## ToDo:
 
-* add favorite sass includes to make purdy.
+* single page app perhaps? that would be the bomb yo.
 * load external data? (like from a server or even this github repo!?)
 * Getting a liveReload error in the docker container. that shouldn't happen for production? Shouldn't even have that running, yeah?
 * what abou the models?
